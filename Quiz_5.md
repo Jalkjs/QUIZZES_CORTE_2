@@ -8,10 +8,7 @@ El PSO empieza generando muchas posibles configuraciones de drones al azar. Cada
 
 Con el paso de las iteraciones, el algoritmo va mejorando y aumentando la cobertura de zonas con alta probabilidad. Al final, se obtiene un conjunto de posiciones que maximizan la probabilidad de encontrar sobrevivientes en el menor tiempo posible, al menos dentro del modelo simplificado que asume drones estáticos.
 
-Además, el código muestra tres gráficos:
-
-el mapa de probabilidades con las posiciones finales de los drones,
-
-un mapa que indica las zonas efectivamente cubiertas por los sensores,
-
-y la evolución del mejor resultado encontrado durante las iteraciones.
+El argoritmo muestra 3 graficas:
+- El mapa de probabilidades con las posiciones finales de los drones
+- Un mapa que indica las zonas efectivamente cubiertas por los sensores
+- Evolución del mejor resultado encontrado durante las iteraciones.
